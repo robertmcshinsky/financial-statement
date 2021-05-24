@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="../../public/assets/css/styles.css" />
+  </head>
+  <body>
+    <header></header>
+    <div id="options">
+      <i
+        class="fa fa-plus-circle fa-3x plus-class"
+        id="plusOrMinus"
+        aria-hidden="true"
+      ></i>
+    </div>
+    <main id="main" style="display: grid">
+      <!-- Income -->
+
+      <section id="income">
+        <div class="title">Income</div>
+        <table>
+          <tr id="income-table-headers">
+            <th>Income</th>
+            <th class="right-side">Cash Flow / Month</th>
+          </tr>
+          <tr>
+            <td>Test Job</td>
+            <td class="right-side">$1,200</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Rat Race-->
+
+      <section id="rat-race">
+        <div class="title">Rat Race</div>
+        <br />
+        <div id="total-expenses">Total Expenses: $3,000</div>
+        <br />
+        <div class="w3-border">
+          <div class="w3-grey" style="height: 24px; width: 20%"></div>
+        </div>
+        <br />
+        <div id="passive-income">Passive Income: $0</div>
+      </section>
+
+      <!-- Expenses -->
+
+      <section id="expenses">
+        <div class="title">Expenses</div>
+        <table>
+          <tr id="expenses-table-headers">
+            <th>Outgo</th>
+            <th class="right-side">Negative Cash Flow / Month</th>
+          </tr>
+          <tr>
+            <td>Taxes</td>
+            <td class="right-side">$910</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Balance Statement-->
+
+      <section id="balance-statement">
+        <div class="title">Balance-Statement</div>
+        <table>
+          <tr id="balance-table-headers">
+            <th>Total Cash</th>
+            <th class="right-side">$2,000</th>
+          </tr>
+          <tr>
+            <td>Total Income</td>
+            <td class="right-side">$3,400</td>
+          </tr>
+          <tr>
+            <td>Total Expenses</td>
+            <td class="right-side">- $3,000</td>
+          </tr>
+        </table>
+        <div class="line"></div>
+        <table>
+          <tr class="payday">
+            <th>PAYDAY</th>
+            <th class="right-side">$400</th>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Assets -->
+
+      <section id="assets">
+        <div class="title">Assets</div>
+        <table>
+          <tr id="assets-table-headers">
+            <th>Stocks/Funds/CDs</th>
+            <th class="right-side">Cost/Share</th>
+          </tr>
+          <tr>
+            <td>Test Stock</td>
+            <td class="right-side">$10</td>
+          </tr>
+        </table>
+        <br />
+        <table>
+          <tr id="assets-real-estate-table-headers">
+            <th>Real Estate/Business</th>
+            <th class="right-side">Cost</th>
+          </tr>
+          <tr>
+            <td>3b/2b House</td>
+            <td class="right-side">$80,000</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Liabilities -->
+
+      <section id="liabilities">
+        <div class="title">Liabilites</div>
+        <table>
+          <tr id="liabilities-table-headers">
+            <th>Liabilites</th>
+            <th class="right-side">Cost</th>
+          </tr>
+          <tr>
+            <td>Mortgage</td>
+            <td class="right-side">$80,000</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <div id="all-options">
+      <div class="container">
+        <form action="">
+          <label for="cars">Choose a item to add:</label>
+          <select id="cars" name="cars">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+            <option value="asset">Asset</option>
+            <option value="liability">Liability</option>
+          </select>
+          <input type="submit" value="All Options" />
+        </form>
+      </div>
+    </div>
+    <footer></footer>
+    <script src="../../public/assets/js/script.js"></script>
+  </body>
+</html>

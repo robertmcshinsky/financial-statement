@@ -1,0 +1,132 @@
+body {
+  background-color: blanchedalmond;
+}
+
+#options {
+  position: absolute;
+  width: 10%;
+  margin-left: 90%;
+  margin-top: 20px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+main {
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+section {
+  width: 100%;
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: block;
+  padding: 10px;
+}
+table {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: x-small;
+}
+th {
+  width: 50%;
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+
+td {
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.right-side {
+  text-align: center;
+}
+
+.title {
+  border-bottom: 1px solid #000;
+  font-size: large;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#balance-table-headers {
+  font-size: large;
+}
+
+#balance-statement table .right-side {
+  float: right;
+  width: 50%;
+}
+
+.payday .right-side,
+.payday th {
+  border: none;
+}
+
+.line {
+  margin: 10px;
+  border-top: 1px solid #000;
+}
+
+/* ----------------------- */
+
+#all-options {
+  position: absolute;
+  width: 80%;
+  margin-left: 95%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  transition: 0.4s;
+}
+
+form {
+  text-align: center;
+}
+
+option,
+select,
+input {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+/* ----------------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
